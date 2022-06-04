@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.work__with__us {
+  background: #F6F8FE; }
+  .work__with__us__part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+  .work__with__us_h2 {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 0 30px;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: 0.01em;
+    color: #2D3192;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; }
+  .work__with__us__advantages {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #000; }
+    .work__with__us__advantages_icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 150px; }
+      .work__with__us__advantages_icon h3 {
+        padding-top: 15px; }
+  .work__with__us_wrappper {
+    margin-top: 40px; }
+    .work__with__us_wrappper_img1 {
+      width: 50%; }
+      .work__with__us_wrappper_img1 img {
+        width: 100%; }
+    .work__with__us_wrappper_text {
+      width: 55%; }
+  .work__with__us_part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .work__with__us_wrappper {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .work__with__us_wrappper_img1 {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+    .work__with__us_wrappper_text {
+      background: #2D3192;
+      margin: 0 0 0 -15%;
+      padding: 40px 60px;
+      color: #fff;
+      border-radius: 4px;
+      width: 45%;
+      position: relative;
+      margin-left: -50px; }
+      .work__with__us_wrappper_text p {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif; }
+    .work__with__us_wrappper_link_a_img {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 3px solid white;
+      width: 50%;
+      border-radius: 12px; }
+    .work__with__us_wrappper_link_a_img:hover {
+      border: 3px solid #ff931e; }
+    .work__with__us_wrappper a {
+      color: #fff;
+      text-decoration: none; }

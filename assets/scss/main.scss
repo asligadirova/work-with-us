@@ -1,0 +1,139 @@
+*{ margin: 0;
+   padding-left: 0;
+   box-sizing: border-box; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.work__with__us{
+    background: #F6F8FE;
+  
+    &__part1{
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    }
+  &_h2{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    padding: 0 0 30px;
+    font-weight: bold;   
+    line-height: 1.29;
+    letter-spacing: 0.01em;
+    color: #2D3192;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+ &__advantages{
+    width: 80%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    color: #000;
+   
+    &_icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        margin-right: 150px;
+        & h3{
+            padding-top: 15px;
+        }    
+       }
+    }
+    &_wrappper{
+        margin-top: 40px;
+     
+        &_img1{
+        width: 50%;
+        & img{
+            width: 100%;
+        }
+        }
+        &_text{
+            width: 55%;        
+        }
+    }
+    &_part2{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_wrappper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        
+        &_img1{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+         
+        
+        }
+        &_text{
+           
+            background: #2D3192;
+            margin: 0 0 0 -15%;
+            padding: 40px 60px;
+            color: #fff;
+            border-radius: 4px;
+            width:45%;
+            position: relative;
+            margin-left: -50px;
+            & p{
+              padding-top: 30px;  
+              padding-bottom: 40px;
+              line-height: 25px;
+              font-family: Arial, Helvetica, sans-serif;
+            }         
+        }
+        &_link{
+          
+        
+           &_a_img{
+               display: flex;
+               justify-content:space-around;
+               text-align: center;
+             padding-top: 15px;
+             padding-bottom: 15px;
+            border:3px solid white;
+            width: 50%;
+            border-radius: 12px;}
+            &_a_img:hover{
+                border:3px solid #ff931e;
+            }
+           
+            
+            ;
+            }
+          
+            & a{
+                color: #fff;
+                text-decoration: none;
+           
+           }
+        }
+    }
+    
+ 
