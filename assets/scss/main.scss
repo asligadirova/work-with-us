@@ -91,8 +91,7 @@ body{
          
         
         }
-        &_text{
-           
+        &_text{           
             background: #2D3192;
             margin: 0 0 0 -15%;
             padding: 40px 60px;
@@ -108,8 +107,7 @@ body{
               font-family: Arial, Helvetica, sans-serif;
             }         
         }
-        &_link{
-          
+        &_link{     
         
            &_a_img{
                display: flex;
@@ -122,10 +120,12 @@ body{
             border-radius: 12px;}
             &_a_img:hover{
                 border:3px solid #ff931e;
-            }
-           
+                img{
+                    transform: translateX(5px);  
+                    transition: 0.2s;  
+                }
+            }                  
             
-            ;
             }
           
             & a{
